@@ -1,28 +1,33 @@
 {
-  "name": "bigco-api-explore",
+  "name": "onboarding",
   "version": "1.0.0",
-  "description": "BigCo API Exploration Project",
+  "description": "onboarding service for BigCo, Inc.",
   "main": "index.js",
   "scripts": {
-    "start": "node cool.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bensbits91/bigco-api.git"
+    "url": "git+https://github.com/api-tool-kit/onboarding.git"
   },
   "keywords": [
-    "api",
-    "explore",
-    "gunk"
+    "mamund",
+    "apitoolkit",
+    "bigco",
+    "pragprog"
   ],
-  "author": "Ben Brooks <ben@notreallyme.co>",
+  "author": "Mike Amundsen (@mamund)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bensbits91/bigco-api/issues"
+    "url": "https://github.com/api-tool-kit/onboarding/issues"
   },
-  "homepage": "https://github.com/bensbits91/bigco-api#readme",
+  "homepage": "https://github.com/api-tool-kit/onboarding#readme",
   "dependencies": {
-    "cool-ascii-faces": "^1.3.4"
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
   }
 }

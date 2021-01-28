@@ -1,0 +1,32 @@
+{
+  "name": "bigco-api-explore",
+  "version": "1.0.0",
+  "description": "BigCo API Exploration Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node cool.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bensbits91/bigco-api.git"
+  },
+  "keywords": [
+    "api",
+    "explore",
+    "gunk"
+  ],
+  "author": "Ben Brooks <ben@notreallyme.co>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bensbits91/bigco-api/issues"
+  },
+  "homepage": "https://github.com/bensbits91/bigco-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cool-ascii-faces": "^1.3.4",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
